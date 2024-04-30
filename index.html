@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio</title>
+  <meta name="description" content="Asia Haws' Start File with SCSS">
+  <meta name="author" content="Asia Haws">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="css/styles.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+  <!-- fav icon stuff -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body>
+
+
+
+
+  <div id="navWrapper">
+    <nav>
+      <ul>
+        <li class="active"><a href="#about"><img src="images/user-regular.svg" alt="user"><span>About Me</span></a></li>
+        <li><a href="#education"><img src="images/graduation-cap-solid.svg" alt="grad"><span>Education</span></a></li>
+        <li><a href="#work"><img src="images/laptop-code-solid.svg" alt="code"><span>My Work</span></a></li>
+        <li><a href="#skills"><img src="images/gears-solid.svg" alt="gears"><span>Skills</span></a></li>
+        <li><a href="#contact"><img src="images/phone-volume-solid.svg" alt="phone"><span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+
+
+
+
+
+
+  <main>
+    <section id="about">
+      <h1>Asia Haws</h1>
+      <p>Web Development & Design</p>
+    </section>
+    <section id="education">
+      
+      <h2>Education</h2>
+      <div class="row">
+        <div class="column small-12 medium-6 large-4">
+          <div class="card1">
+            <h6>Uintah High School</h6>
+            <p>Certification in Graphic Design and Programming</p>
+            <p>I learned how to effectively navigate design programs and different
+              programming languages. I also took a game development class where I built a game from scratch
+              using C# and Unity.
+            </p>
+          </div> <!-- end card -->
+        </div> <!-- end column -->
+        <div class="column small-12 medium-6 large-4">
+          <div class="card1">
+            <h6>Utah Valley University</h6>
+            <p>I am currently pursuing three degrees here at Utah Valley University.</p>
+            <p>By 2025, I will have a Bachelor's in Web Development, an Associates in Web Design,
+              and an Associates in University Studies. I am currently a Junior in college, with
+              an avid passion for design and development classes.
+            </p>
+          </div> <!-- end card -->
+        </div> <!-- end column -->
+      </div> <!--end row-->
+    </section>
+    <section id="work">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="column small-12 medium-6 large-4">
+          <div class="card1">
+            <h6>Designing for AR/VR</h6>
+            <p>I used Zapworks to design an interactive music store.</p>
+            <p>I became more informed about how to use VR/AR and had the ability to test
+              it out with different devices.
+            </p>
+              <button type="button">Learn More</button>
+          </div> <!-- end card -->
+        </div> <!-- end column -->
+        <div class="column small-12 medium-6 large-4">
+          <div class="card1">
+            <h6>Redesigning the Feit Electric Mobile App</h6>
+            <p>I analyzed and designed a new interface for a mobile lighting app.</p>
+            <p>I included a more modern feel, as well as more organized navigational features and 
+              easier-to-understand designs for the user.
+            </p>
+            <button type="button">Learn More</button>
+          </div> <!-- end card -->
+        </div> <!-- end column -->
+      </div> <!--end row-->
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="column small-12 medium-6 large-3">
+          <div class="card1">
+            <h6>Coding Skills</h6>
+            <p>What I am familiar with:</p>
+            <p>JavaScript, Python, C#, CSS, SASS, HTML, TypeScript
+            </p>
+          </div> <!-- end card -->
+        </div> <!-- end column -->
+        <div class="column small-12 medium-6 large-4">
+          <div class="card1">
+            <h6>Design Skills</h6>
+            <p>I know how to effectively use design software. Examples include:</p>
+            <p>Adobe Illustrator, Adobe XD, Figma, Adobe Photoshop, Sketch, Adobe InDesign.</p>
+          </div> <!-- end card -->
+        </div> <!-- end column -->
+        <div class="column small-12 medium-6 large-4">
+          <div class="card1">
+            <h6>Personal Skills</h6>
+            <p>I am a great team player. I love to communnicate with others as it
+              helps my creative design process. I am reliable, and trustworthy. I also
+              look to solve problems efficently and effectively. I look forward to creative trends.
+            </p>
+          </div> <!-- end card -->
+        </div> <!-- end column -->
+      </div> <!--end row-->
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Fill in this form to get in contact with me.</p>
+      <form method="GET" class="my-form" autocomplete="on">
+        <h3>Your Information</h3>
+        <label>First Name: <input type="text" name="fname" autocomplete="given-name" required
+            title="First Name Here"></label>
+        <label>Email:<input type="email" name="email" autocomplete="email" required title="Your Email"></label>
+        <label for="message">Message:</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+
+
+
+        <input type="submit" value="Send">
+
+
+
+      </form>
+    </section>
+
+  </main>
+
+<div id="footerWrapper">
+  <footer>
+      <div class="contact">
+          <p>Asia Haws</p>
+          <p>Email:<a href="mailto:asiahaws1@gmail.com">asiahaws1@gmail.com</a></p>
+          <div class="social">
+              <a href="https://github.com/username"><ion-icon name="logo-github"></ion-icon></a>
+              <a href="https://python.org"><ion-icon name="logo-python"></ion-icon></a>
+              <a href="https://reddit.com"><ion-icon name="logo-reddit"></ion-icon></a>
+              <a href="https://sass-lang.com"><ion-icon name="logo-sass"></ion-icon></a>
+              <a href="https://slack.com"><ion-icon name="logo-slack"></ion-icon></a>
+          </div>
+      </div>
+      <p class="legal">&copy; <span id="year">2023</span> &bull; Asia Haws</p>
+  </footer>
+</div>
+
+<script src="js/scripts.js" type="module"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
